@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7124E501558954600FF9DC4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7124E4F1558954600FF9DC4 /* UIKit.framework */; };
+		E7124E521558954600FF9DC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7124E511558954600FF9DC4 /* Foundation.framework */; };
+		E7124E541558954600FF9DC4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7124E531558954600FF9DC4 /* CoreGraphics.framework */; };
+		E7124E5A1558954600FF9DC4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E7124E581558954600FF9DC4 /* InfoPlist.strings */; };
+		E7124E5C1558954600FF9DC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7124E5B1558954600FF9DC4 /* main.m */; };
+		E7124E601558954700FF9DC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7124E5F1558954600FF9DC4 /* AppDelegate.m */; };
+		E7124E631558954700FF9DC4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7124E621558954700FF9DC4 /* ViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E7124E661558954700FF9DC4 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7124E641558954700FF9DC4 /* ViewController.xib */; };
+		E7124E6F155895B900FF9DC4 /* ActiveTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7124E6E155895B900FF9DC4 /* ActiveTextView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E7124E71155895E000FF9DC4 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7124E70155895E000FF9DC4 /* CoreText.framework */; };
+		E7124E761558974B00FF9DC4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7124E751558974B00FF9DC4 /* QuartzCore.framework */; };
+		E7BB21D61559C0D500DDCC16 /* SlidingTextSelectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BB21D51559C0D500DDCC16 /* SlidingTextSelectorView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E7124E4B1558954600FF9DC4 /* ActiveTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActiveTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7124E4F1558954600FF9DC4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E7124E511558954600FF9DC4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E7124E531558954600FF9DC4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E7124E571558954600FF9DC4 /* ActiveTextView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ActiveTextView-Info.plist"; sourceTree = "<group>"; };
+		E7124E591558954600FF9DC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E7124E5B1558954600FF9DC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E7124E5D1558954600FF9DC4 /* ActiveTextView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ActiveTextView-Prefix.pch"; sourceTree = "<group>"; };
+		E7124E5E1558954600FF9DC4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E7124E5F1558954600FF9DC4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E7124E611558954700FF9DC4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E7124E621558954700FF9DC4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E7124E651558954700FF9DC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		E7124E6D155895B900FF9DC4 /* ActiveTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ActiveTextView.h; path = lib/ActiveTextView.h; sourceTree = "<group>"; };
+		E7124E6E155895B900FF9DC4 /* ActiveTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ActiveTextView.m; path = lib/ActiveTextView.m; sourceTree = "<group>"; };
+		E7124E70155895E000FF9DC4 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		E7124E751558974B00FF9DC4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E7BB21D41559C0D500DDCC16 /* SlidingTextSelectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlidingTextSelectorView.h; path = lib/SlidingTextSelectorView.h; sourceTree = "<group>"; };
+		E7BB21D51559C0D500DDCC16 /* SlidingTextSelectorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SlidingTextSelectorView.m; path = lib/SlidingTextSelectorView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7124E481558954600FF9DC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7124E761558974B00FF9DC4 /* QuartzCore.framework in Frameworks */,
+				E7124E71155895E000FF9DC4 /* CoreText.framework in Frameworks */,
+				E7124E501558954600FF9DC4 /* UIKit.framework in Frameworks */,
+				E7124E521558954600FF9DC4 /* Foundation.framework in Frameworks */,
+				E7124E541558954600FF9DC4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7124E401558954500FF9DC4 = {
+			isa = PBXGroup;
+			children = (
+				E7124E6C1558957100FF9DC4 /* lib */,
+				E7124E551558954600FF9DC4 /* ActiveTextView */,
+				E7124E4E1558954600FF9DC4 /* Frameworks */,
+				E7124E4C1558954600FF9DC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7124E4C1558954600FF9DC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7124E4B1558954600FF9DC4 /* ActiveTextView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7124E4E1558954600FF9DC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7124E751558974B00FF9DC4 /* QuartzCore.framework */,
+				E7124E70155895E000FF9DC4 /* CoreText.framework */,
+				E7124E4F1558954600FF9DC4 /* UIKit.framework */,
+				E7124E511558954600FF9DC4 /* Foundation.framework */,
+				E7124E531558954600FF9DC4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7124E551558954600FF9DC4 /* ActiveTextView */ = {
+			isa = PBXGroup;
+			children = (
+				E7124E5E1558954600FF9DC4 /* AppDelegate.h */,
+				E7124E5F1558954600FF9DC4 /* AppDelegate.m */,
+				E7124E611558954700FF9DC4 /* ViewController.h */,
+				E7124E621558954700FF9DC4 /* ViewController.m */,
+				E7124E641558954700FF9DC4 /* ViewController.xib */,
+				E7124E561558954600FF9DC4 /* Supporting Files */,
+			);
+			path = ActiveTextView;
+			sourceTree = "<group>";
+		};
+		E7124E561558954600FF9DC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7124E571558954600FF9DC4 /* ActiveTextView-Info.plist */,
+				E7124E581558954600FF9DC4 /* InfoPlist.strings */,
+				E7124E5B1558954600FF9DC4 /* main.m */,
+				E7124E5D1558954600FF9DC4 /* ActiveTextView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E7124E6C1558957100FF9DC4 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				E7124E6D155895B900FF9DC4 /* ActiveTextView.h */,
+				E7124E6E155895B900FF9DC4 /* ActiveTextView.m */,
+				E7BB21D41559C0D500DDCC16 /* SlidingTextSelectorView.h */,
+				E7BB21D51559C0D500DDCC16 /* SlidingTextSelectorView.m */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7124E4A1558954600FF9DC4 /* ActiveTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7124E691558954700FF9DC4 /* Build configuration list for PBXNativeTarget "ActiveTextView" */;
+			buildPhases = (
+				E7124E471558954600FF9DC4 /* Sources */,
+				E7124E481558954600FF9DC4 /* Frameworks */,
+				E7124E491558954600FF9DC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ActiveTextView;
+			productName = ActiveTextView;
+			productReference = E7124E4B1558954600FF9DC4 /* ActiveTextView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7124E421558954500FF9DC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = E7124E451558954500FF9DC4 /* Build configuration list for PBXProject "ActiveTextView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E7124E401558954500FF9DC4;
+			productRefGroup = E7124E4C1558954600FF9DC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7124E4A1558954600FF9DC4 /* ActiveTextView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7124E491558954600FF9DC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7124E5A1558954600FF9DC4 /* InfoPlist.strings in Resources */,
+				E7124E661558954700FF9DC4 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7124E471558954600FF9DC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7124E5C1558954600FF9DC4 /* main.m in Sources */,
+				E7124E601558954700FF9DC4 /* AppDelegate.m in Sources */,
+				E7124E631558954700FF9DC4 /* ViewController.m in Sources */,
+				E7124E6F155895B900FF9DC4 /* ActiveTextView.m in Sources */,
+				E7BB21D61559C0D500DDCC16 /* SlidingTextSelectorView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E7124E581558954600FF9DC4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7124E591558954600FF9DC4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E7124E641558954700FF9DC4 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7124E651558954700FF9DC4 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7124E671558954700FF9DC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E7124E681558954700FF9DC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7124E6A1558954700FF9DC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ActiveTextView/ActiveTextView-Prefix.pch";
+				INFOPLIST_FILE = "ActiveTextView/ActiveTextView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E7124E6B1558954700FF9DC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ActiveTextView/ActiveTextView-Prefix.pch";
+				INFOPLIST_FILE = "ActiveTextView/ActiveTextView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7124E451558954500FF9DC4 /* Build configuration list for PBXProject "ActiveTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7124E671558954700FF9DC4 /* Debug */,
+				E7124E681558954700FF9DC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7124E691558954700FF9DC4 /* Build configuration list for PBXNativeTarget "ActiveTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7124E6A1558954700FF9DC4 /* Debug */,
+				E7124E6B1558954700FF9DC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7124E421558954500FF9DC4 /* Project object */;
+}
